@@ -1,3 +1,15 @@
-<div class="cookie">
+<div class="cookie" id="cookie">
     <p>ich bin ein cookiemonster</p>
+    <button onclick="auswahl()">auswahl speichern</button>
+    <button onclick="alle()">alle annehmen</button>
 </div>
+
+
+<script>
+    function auswahl() {
+        document.getElementById("demo").innerHTML = "Auswahl gespeichert";
+    }
+    function alle() {
+        document.getElementById("demo").innerHTML = "Alle angenommen";
+    }
+</script>
