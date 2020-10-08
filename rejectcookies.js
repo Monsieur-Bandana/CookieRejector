@@ -30,8 +30,6 @@ var x = findHighestZIndex("*").getElementsByTagName("button");
 
 x[0].click()
 
-x[0].style.backgroundColor = "red"
-
 
 
 
